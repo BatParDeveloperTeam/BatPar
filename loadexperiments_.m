@@ -90,7 +90,7 @@ end
 
 t_ = N(exp_start_line:exp_end_line,1);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-I_ = Current_sign * N(exp_start_line:exp_end_line,2)/1000;
+I_ = Current_sign * N(exp_start_line:exp_end_line,2);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 if working_mode == 1 || working_mode == 3 % anode paramterisation
     anode_voltage_sign = mean(N(exp_start_line:exp_end_line,3));
