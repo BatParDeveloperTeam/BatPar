@@ -79,7 +79,15 @@ for ii = 1:numel(S_j)
                 data.label{ii}    = datatemp.label;
 
                 count = count + 1;
-           
+            else
+		data.t{ii}        = [];
+                data.I{ii}        = [];
+                data.V{ii}        = [];
+                data.T{ii}        = [];
+                data.S{ii}        = [];
+                data.label{ii}    = [];
+                
+                count = count + 1;  	
             end
  
         end
